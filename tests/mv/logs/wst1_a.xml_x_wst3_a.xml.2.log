@@ -1,0 +1,52 @@
+checking wst1_a.xml
+checking wst3_a.xml
+files count: 2
+f1: /home/jvanek/NetBeansProjects/XMLcompare/tests/mv/wst1_a.xml
+f2: /home/jvanek/NetBeansProjects/XMLcompare/tests/mv/wst3_a.xml
+compressed diff will be written into: /home/jvanek/NetBeansProjects/XMLcompare/tests/mv/difs/wst1_a.xml_x_wst3_a.xml.2.xdiff
+order is ignored - matching
+ignoreContent: false
+failFast: false
+silent: false
+ignoreUri: false
+forceTrim: true
+ignoreValueCase: false
+ignoreNameCase: false
+removeSpaces: false
+ignoreHeaders: false
+dual: true
+orphanSeek: true
+visualise: false
+levenstain is off
+validation is off
+opening parser for: /home/jvanek/NetBeansProjects/XMLcompare/tests/mv/wst1_a.xml
+opening parser for: /home/jvanek/NetBeansProjects/XMLcompare/tests/mv/wst3_a.xml
+Checking version: null against null
+OK     :  both xml versions are null
+Checking encoding: UTF-8 against UTF-8
+OK     :  encodings equals - UTF-8
+Checking processing instructions
+OK     :  number of processing instructions equals 0
+OK     :  all processing instructins match
+Entering root
+-------bruteforce summary--------
+    ERROR(1): {http://schemas.xmlsoap.org/soap/envelope/}Envelope: No suitable children path found; value1: eg: Header; value2: ; line1: 1; line2: null
+        ERROR(2): {http://schemas.xmlsoap.org/soap/envelope/}Header: Element value differs; value1: {http://schemas.xmlsoap.org/soap/envelope/}Header; value2: {http://schemas.xmlsoap.org/soap/envelope/}Header matching by 100; line1: 2; line2: 2
+            ERROR(3): {uri://org.example.webservices.signature.Sign}sign:  undef - that mostly means that there left nothing to be cmpared with; value1: null; value2: null; line1: null; line2: null
+        ERROR(4): {http://schemas.xmlsoap.org/soap/envelope/}Body: No suitable children path found; value1: eg: sayHello; value2: ; line1: 5; line2: null
+            ERROR(5): {http://webservice_consumer_wise4/helloworld}sayHello: Element name differs; value1: {http://webservice_consumer_wise4/helloworld}sayHello; value2: {http://webservice_consumer_wise4/helloworld}sayHelloResponse; line1: 6; line2: 2
+++++ reverse order comparsion ++++
+Checking version: null against null
+OK     :  both xml versions are null
+Checking encoding: UTF-8 against UTF-8
+OK     :  encodings equals - UTF-8
+Checking processing instructions
+OK     :  number of processing instructions equals 0
+    OK     :  all processing instructins match
+Entering root
+-------bruteforce summary--------
+    ERROR(6): {http://schemas.xmlsoap.org/soap/envelope/}Envelope: No suitable children path found; value1: eg: Header; value2: ; line1: 1; line2: null
+        ERROR(7): {http://schemas.xmlsoap.org/soap/envelope/}Header: Element value differs; value1: {http://schemas.xmlsoap.org/soap/envelope/}Header; value2: {http://schemas.xmlsoap.org/soap/envelope/}Header matching by 100; line1: 2; line2: 2
+        ERROR(8): {http://schemas.xmlsoap.org/soap/envelope/}Body: No suitable children path found; value1: eg: sayHelloResponse; value2: ; line1: 2; line2: null
+            ERROR(9): {http://webservice_consumer_wise4/helloworld}sayHelloResponse: Element name differs; value1: {http://webservice_consumer_wise4/helloworld}sayHelloResponse; value2: {http://webservice_consumer_wise4/helloworld}sayHello; line1: 2; line2: 6
+Total errors: 9

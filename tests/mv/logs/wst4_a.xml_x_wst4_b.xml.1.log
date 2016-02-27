@@ -1,0 +1,119 @@
+checking wst4_a.xml
+checking wst4_b.xml
+files count: 2
+f1: /home/jvanek/NetBeansProjects/XMLcompare/tests/mv/wst4_a.xml
+f2: /home/jvanek/NetBeansProjects/XMLcompare/tests/mv/wst4_b.xml
+compressed diff will be written into: /home/jvanek/NetBeansProjects/XMLcompare/tests/mv/difs/wst4_a.xml_x_wst4_b.xml.1.xdiff
+order is ignored - sorting
+ignoreContent: false
+failFast: false
+silent: false
+ignoreUri: false
+forceTrim: true
+ignoreValueCase: false
+ignoreNameCase: false
+removeSpaces: false
+ignoreHeaders: false
+dual: true
+orphanSeek: true
+visualise: false
+levenstain is off
+validation is off
+opening parser for: /home/jvanek/NetBeansProjects/XMLcompare/tests/mv/wst4_a.xml
+opening parser for: /home/jvanek/NetBeansProjects/XMLcompare/tests/mv/wst4_b.xml
+Checking version: null against null
+OK     :  both xml versions are null
+Checking encoding: UTF-8 against UTF-8
+OK     :  encodings equals - UTF-8
+Checking processing instructions
+OK     :  number of processing instructions equals 0
+OK     :  all processing instructins match
+Entering root
+    *Checking element: {http://schemas.xmlsoap.org/soap/envelope/}Envelope against {http://schemas.xmlsoap.org/soap/envelope/}Envelope
+    OK     : names equals ({http://schemas.xmlsoap.org/soap/envelope/}Envelope)
+    Checking  attributes
+    OK     :  number of attributes equals 0
+    Checking  childrens
+    OK     :  number of childrens  equals 2
+        *Checking element: {http://schemas.xmlsoap.org/soap/envelope/}Body against {http://schemas.xmlsoap.org/soap/envelope/}Body
+        OK     : names equals ({http://schemas.xmlsoap.org/soap/envelope/}Body)
+        Checking  attributes
+        OK     :  number of attributes equals 0
+        Checking  childrens
+        OK     :  number of childrens  equals 1
+            *Checking element: {http://webservice_consumer_wise4/helloworld}sayHelloResponse against {http://webservice_consumer_wise4/helloworld}sayHelloResponse
+            OK     : names equals ({http://webservice_consumer_wise4/helloworld}sayHelloResponse)
+            Checking  attributes
+            OK     :  number of attributes equals 0
+            Checking  childrens
+            OK     :  number of childrens  equals 1
+                *Checking element: return against return
+                OK     : names equals (return)
+                Checking  attributes
+                OK     :  number of attributes equals 0
+                Checking  childrens
+                OK     :  number of childrens  equals 0
+                Checking  content
+                OK     : content equals - lines f1: 3, f2: 4 : Pepa
+            leaving element: return and return
+        leaving element: {http://webservice_consumer_wise4/helloworld}sayHelloResponse and {http://webservice_consumer_wise4/helloworld}sayHelloResponse
+    leaving element: {http://schemas.xmlsoap.org/soap/envelope/}Body and {http://schemas.xmlsoap.org/soap/envelope/}Body
+        *Checking element: {http://schemas.xmlsoap.org/soap/envelope/}Header against {http://schemas.xmlsoap.org/soap/envelope/}Header
+        OK     : names equals ({http://schemas.xmlsoap.org/soap/envelope/}Header)
+        Checking  attributes
+        OK     :  number of attributes equals 0
+        Checking  childrens
+        OK     :  number of childrens  equals 0
+        Checking  content
+        OK     : content equals - lines f1: 2, f2: 3 : 
+    leaving element: {http://schemas.xmlsoap.org/soap/envelope/}Header and {http://schemas.xmlsoap.org/soap/envelope/}Header
+    leaving element: {http://schemas.xmlsoap.org/soap/envelope/}Envelope and {http://schemas.xmlsoap.org/soap/envelope/}Envelope
+++++ reverse order comparsion ++++
+Checking version: null against null
+OK     :  both xml versions are null
+Checking encoding: UTF-8 against UTF-8
+OK     :  encodings equals - UTF-8
+Checking processing instructions
+OK     :  number of processing instructions equals 0
+    OK     :  all processing instructins match
+Entering root
+        *Checking element: {http://schemas.xmlsoap.org/soap/envelope/}Envelope against {http://schemas.xmlsoap.org/soap/envelope/}Envelope
+        OK     : names equals ({http://schemas.xmlsoap.org/soap/envelope/}Envelope)
+        Checking  attributes
+        OK     :  number of attributes equals 0
+        Checking  childrens
+        OK     :  number of childrens  equals 2
+            *Checking element: {http://schemas.xmlsoap.org/soap/envelope/}Body against {http://schemas.xmlsoap.org/soap/envelope/}Body
+            OK     : names equals ({http://schemas.xmlsoap.org/soap/envelope/}Body)
+            Checking  attributes
+            OK     :  number of attributes equals 0
+            Checking  childrens
+            OK     :  number of childrens  equals 1
+                *Checking element: {http://webservice_consumer_wise4/helloworld}sayHelloResponse against {http://webservice_consumer_wise4/helloworld}sayHelloResponse
+                OK     : names equals ({http://webservice_consumer_wise4/helloworld}sayHelloResponse)
+                Checking  attributes
+                OK     :  number of attributes equals 0
+                Checking  childrens
+                OK     :  number of childrens  equals 1
+                    *Checking element: return against return
+                    OK     : names equals (return)
+                    Checking  attributes
+                    OK     :  number of attributes equals 0
+                    Checking  childrens
+                    OK     :  number of childrens  equals 0
+                    Checking  content
+                    OK     : content equals - lines f1: 4, f2: 3 : Pepa
+                leaving element: return and return
+            leaving element: {http://webservice_consumer_wise4/helloworld}sayHelloResponse and {http://webservice_consumer_wise4/helloworld}sayHelloResponse
+        leaving element: {http://schemas.xmlsoap.org/soap/envelope/}Body and {http://schemas.xmlsoap.org/soap/envelope/}Body
+            *Checking element: {http://schemas.xmlsoap.org/soap/envelope/}Header against {http://schemas.xmlsoap.org/soap/envelope/}Header
+            OK     : names equals ({http://schemas.xmlsoap.org/soap/envelope/}Header)
+            Checking  attributes
+            OK     :  number of attributes equals 0
+            Checking  childrens
+            OK     :  number of childrens  equals 0
+            Checking  content
+            OK     : content equals - lines f1: 3, f2: 2 : 
+        leaving element: {http://schemas.xmlsoap.org/soap/envelope/}Header and {http://schemas.xmlsoap.org/soap/envelope/}Header
+    leaving element: {http://schemas.xmlsoap.org/soap/envelope/}Envelope and {http://schemas.xmlsoap.org/soap/envelope/}Envelope
+XMLs are same

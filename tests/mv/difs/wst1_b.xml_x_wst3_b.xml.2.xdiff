@@ -1,0 +1,17 @@
+<!--diff is alpha! Havy development now! best to be run with:-ignoreOrder=2 -orphanSeek -dual-->
+- 3 /
+- <http://schemas.xmlsoap.org/soap/envelope/:Envelope></Envelope>
++ 3 /
++ <http://schemas.xmlsoap.org/soap/envelope/:Envelope></Envelope>
++ 3 /Envelope/
++ <http://schemas.xmlsoap.org/soap/envelope/:Header></Header>
++ 3 /Envelope/
++ <http://schemas.xmlsoap.org/soap/envelope/:Body></Body>
++ 3 /Envelope/Body/
+<ns2:sayHelloResponse xmlns:ns2="http://webservice_consumer_wise4/helloworld"><return>Pepa</return></ns2:sayHelloResponse>
+- 4 /Envelope/
+- <http://schemas.xmlsoap.org/soap/envelope/:Body></Body>
+- 4 /Envelope/Body/
+<ns2:sayHello xmlns:ns2="http://webservice_consumer_wise4/helloworld">
+<toWhom>Pepa</toWhom>
+</ns2:sayHello>

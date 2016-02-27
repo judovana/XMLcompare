@@ -1,0 +1,51 @@
+checking wst1_b.xml
+checking wst2_b.xml
+files count: 2
+f1: /home/jvanek/NetBeansProjects/XMLcompare/tests/mv/wst1_b.xml
+f2: /home/jvanek/NetBeansProjects/XMLcompare/tests/mv/wst2_b.xml
+compressed diff will be written into: /home/jvanek/NetBeansProjects/XMLcompare/tests/mv/difs/wst1_b.xml_x_wst2_b.xml.2.xdiff
+order is ignored - matching
+ignoreContent: false
+failFast: false
+silent: false
+ignoreUri: false
+forceTrim: true
+ignoreValueCase: false
+ignoreNameCase: false
+removeSpaces: false
+ignoreHeaders: false
+dual: true
+orphanSeek: true
+visualise: false
+levenstain is off
+validation is off
+opening parser for: /home/jvanek/NetBeansProjects/XMLcompare/tests/mv/wst1_b.xml
+opening parser for: /home/jvanek/NetBeansProjects/XMLcompare/tests/mv/wst2_b.xml
+Checking version: null against null
+OK     :  both xml versions are null
+Checking encoding: UTF-8 against UTF-8
+OK     :  encodings equals - UTF-8
+Checking processing instructions
+OK     :  number of processing instructions equals 0
+OK     :  all processing instructins match
+Entering root
+-------bruteforce summary--------
+    OK: {http://schemas.xmlsoap.org/soap/envelope/}Envelope: OK
+        OK: {http://schemas.xmlsoap.org/soap/envelope/}Body: OK
+            OK: {http://webservice_consumer_wise4/helloworld}sayHello: OK
+                OK: toWhom: OK
+++++ reverse order comparsion ++++
+Checking version: null against null
+OK     :  both xml versions are null
+Checking encoding: UTF-8 against UTF-8
+OK     :  encodings equals - UTF-8
+Checking processing instructions
+OK     :  number of processing instructions equals 0
+    OK     :  all processing instructins match
+Entering root
+-------bruteforce summary--------
+    OK: {http://schemas.xmlsoap.org/soap/envelope/}Envelope: OK
+        OK: {http://schemas.xmlsoap.org/soap/envelope/}Body: OK
+            OK: {http://webservice_consumer_wise4/helloworld}sayHello: OK
+                OK: toWhom: OK
+XMLs are same

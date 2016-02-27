@@ -1,0 +1,19 @@
+<!--diff is alpha! Havy development now! best to be run with:-ignoreOrder=2 -orphanSeek -dual-->
+- 1 /
+- <http://schemas.xmlsoap.org/soap/envelope/:Envelope></Envelope>
++ 1 /
++ <http://schemas.xmlsoap.org/soap/envelope/:Envelope></Envelope>
++ 1 /Envelope/
++ <http://schemas.xmlsoap.org/soap/envelope/:Header></Header>
++ 1 /Envelope/Header/
++ <uri://org.example.webservices.signature.Sign:sign></sign>
+- 2 /Envelope/
+- <http://schemas.xmlsoap.org/soap/envelope/:Header></Header>
+- 2 /Envelope/
+- <http://schemas.xmlsoap.org/soap/envelope/:Body></Body>
+- 2 /Envelope/Body/
+<ns2:sayHelloResponse xmlns:ns2="http://webservice_consumer_wise4/helloworld"><return>Pepa</return></ns2:sayHelloResponse>
++ 2 /Envelope/
++ <http://schemas.xmlsoap.org/soap/envelope/:Body></Body>
++ 2 /Envelope/Body/
+<ns1:sayHello xmlns:ns1="http://webservice_consumer_wise4/helloworld"><toWhom>Pepa</toWhom></ns1:sayHello>

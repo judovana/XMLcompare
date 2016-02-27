@@ -1,0 +1,6 @@
+
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Header/><soap:Body><ns2:sayHelloResponse 
+xmlns:ns2="http://webservice_consumer_wise4/helloworld"><return>Pepa</return></ns2:sayHelloResponse></soap:Body></soap:Envelope>
+
+

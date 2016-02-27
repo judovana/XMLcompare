@@ -1,0 +1,9 @@
+<!--diff is alpha! Havy development now! best to be run with:-ignoreOrder=2 -orphanSeek -dual-->
++ 1 /
++ <http://schemas.xmlsoap.org/soap/envelope/:Envelope></Envelope>
++ 2 /Envelope/
+<env:Header xmlns:env="http://schemas.xmlsoap.org/soap/envelope/">
+<sign:sign xmlns:sign="uri://org.example.webservices.signature.Sign" />
+</env:Header>
+- 3 /
+- <http://schemas.xmlsoap.org/soap/envelope/:Envelope></Envelope>

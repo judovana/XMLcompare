@@ -1,0 +1,208 @@
+<directory name='XMLcompare'>
+<file name='build.xml' size='3651'/>
+<file name='manifest.mf' size='82'/>
+<file name='fs2xml.sh' size='598'/>
+<directory name='src'>
+<directory name='xmlcompare'>
+<file name='kukykuk2' size='0'/>
+<file name='DiffVisualisation.java' size='5536'/>
+<file name='DiffVisualisation.form' size='4028'/>
+<file name='Main.java' size='4098'/>
+<directory name='kukykuk1'>
+</directory>
+<directory name='impl'>
+<file name='BruteForceResultKeeper.java' size='3088'/>
+<file name='XmlComparator.java' size='45277'/>
+<file name='ComparsionResult.java' size='3481'/>
+<file name='LevenstainComparator.java' size='650'/>
+<file name='HeaderResult.java' size='669'/>
+<file name='HeadersCheckResultKeeper.java' size='909'/>
+<file name='XmlStat.java' size='9768'/>
+<file name='AttributeComparator.java' size='587'/>
+<file name='AlphaAndChildCountComparator.java' size='1525'/>
+<file name='ProcessingInstructionsResult.java' size='1441'/>
+<file name='ChoosingValidator.java' size='2646'/>
+<file name='ProcessingInstructionComparator.java' size='600'/>
+<file name='BruteForceResult.java' size='349'/>
+<directory name='gui'>
+<file name='FullTraceDialog.form' size='6944'/>
+<file name='XmlViewerComponent.java' size='46782'/>
+<file name='FullTraceDialog.java' size='4900'/>
+<file name='ViewWithControls.java' size='14668'/>
+</directory>
+</directory>
+<directory name='utils'>
+<file name='Commons.java' size='6738'/>
+</directory>
+</directory>
+</directory>
+<directory name='build'>
+<file name='built-jar.properties' size='73'/>
+<directory name='classes'>
+<directory name='xmlcompare'>
+<file name='Main.class' size='4224'/>
+<file name='DiffVisualisation.class' size='4392'/>
+<file name='DiffVisualisation$1.class' size='1279'/>
+<directory name='impl'>
+<file name='HeaderResult.class' size='969'/>
+<file name='XmlStat$TSizeComparator.class' size='1311'/>
+<file name='HeadersCheckResultKeeper$State.class' size='1862'/>
+<file name='ComparsionResult$Reasons.class' size='2352'/>
+<file name='HeadersCheckResultKeeper.class' size='673'/>
+<file name='ProcessingInstructionComparator.class' size='1150'/>
+<file name='HeadersCheckResultKeeper$1.class' size='1006'/>
+<file name='ProcessingInstructionsResult.class' size='1281'/>
+<file name='BruteForceResult.class' size='447'/>
+<file name='XmlStat$1.class' size='204'/>
+<file name='XmlStat.class' size='9343'/>
+<file name='XmlStat$StatMember.class' size='1680'/>
+<file name='XmlComparator.class' size='32616'/>
+<file name='AlphaAndChildCountComparator.class' size='2308'/>
+<file name='XmlStat$SizeComparator.class' size='1303'/>
+<file name='ProcessingInstructionsResult$State.class' size='1805'/>
+<file name='XmlStat$LengthComparator.class' size='1157'/>
+<file name='AlphaAndChildCountComparator$ContentComapre.class' size='1347'/>
+<file name='AttributeComparator.class' size='1152'/>
+<file name='BruteForceResultKeeper.class' size='4124'/>
+<file name='ComparsionResult.class' size='2430'/>
+<file name='ComparsionResult$1.class' size='1291'/>
+<file name='XmlStat$OrderComparator.class' size='1307'/>
+<file name='XmlComparator$1.class' size='1952'/>
+<file name='LevenstainComparator.class' size='1156'/>
+<file name='ChoosingValidator.class' size='2434'/>
+<file name='ProcessingInstructionsResult$1.class' size='1028'/>
+<directory name='gui'>
+<file name='ViewWithControls$1.class' size='860'/>
+<file name='ViewWithControls$2.class' size='860'/>
+<file name='XmlViewerComponent$ScrollSmallUpClick.class' size='924'/>
+<file name='XmlViewerComponent$CollapseAtts.class' size='906'/>
+<file name='ViewWithControls$5.class' size='860'/>
+<file name='ViewWithControls$9.class' size='860'/>
+<file name='XmlViewerComponent$3.class' size='1204'/>
+<file name='XmlViewerComponent$CollapseButton.class' size='930'/>
+<file name='XmlViewerComponent$ProcessingInstruction.class' size='1211'/>
+<file name='XmlViewerComponent$4.class' size='8404'/>
+<file name='FullTraceDialog$1$1.class' size='779'/>
+<file name='XmlViewerComponent$2.class' size='1031'/>
+<file name='XmlViewerComponent$ScrollBars.class' size='5908'/>
+<file name='XmlViewerComponent$ScrollVerticalRider.class' size='927'/>
+<file name='FullTraceDialog$1.class' size='914'/>
+<file name='XmlViewerComponent$OMElementExtensions.class' size='1788'/>
+<file name='ViewWithControls$4.class' size='860'/>
+<file name='XmlViewerComponent$ScrollSmallDownClick.class' size='930'/>
+<file name='ViewWithControls.class' size='10771'/>
+<file name='XmlViewerComponent$1.class' size='1066'/>
+<file name='XmlViewerComponent$ScrollBigRightClick.class' size='927'/>
+<file name='FullTraceDialog.class' size='3570'/>
+<file name='XmlViewerComponent$ScrollBarClick.class' size='906'/>
+<file name='ViewWithControls$3.class' size='860'/>
+<file name='XmlViewerComponent$AttValue.class' size='888'/>
+<file name='XmlViewerComponent$ScrollSmallRightClick.class' size='933'/>
+<file name='XmlViewerComponent$ExtensionBase.class' size='986'/>
+<file name='XmlViewerComponent$NodeAttPart.class' size='941'/>
+<file name='XmlViewerComponent$OMProcessingInstructionExtension.class' size='1094'/>
+<file name='ViewWithControls$8.class' size='860'/>
+<file name='XmlViewerComponent$ScrollSmallLeftClick.class' size='930'/>
+<file name='XmlViewerComponent$CollapseText.class' size='906'/>
+<file name='XmlViewerComponent$MouseObject.class' size='845'/>
+<file name='ViewWithControls$10.class' size='871'/>
+<file name='XmlViewerComponent$NameAndVersion.class' size='976'/>
+<file name='XmlViewerComponent$CollapseChilds.class' size='912'/>
+<file name='XmlViewerComponent$ScrollBigDownClick.class' size='924'/>
+<file name='XmlViewerComponent$NodeEllPart.class' size='891'/>
+<file name='XmlViewerComponent$NodePart.class' size='963'/>
+<file name='XmlViewerComponent$ElementExtensionsObject.class' size='1105'/>
+<file name='XmlViewerComponent$ScrollBigLeftClick.class' size='924'/>
+<file name='XmlViewerComponent.class' size='28977'/>
+<file name='XmlViewerComponent$NodeName.class' size='888'/>
+<file name='XmlViewerComponent$CollapseNamespace.class' size='921'/>
+<file name='XmlViewerComponent$AttName.class' size='885'/>
+<file name='ViewWithControls$6.class' size='860'/>
+<file name='ViewWithControls$7.class' size='860'/>
+<file name='XmlViewerComponent$ScrollHorizontalRider.class' size='933'/>
+<file name='XmlViewerComponent$NodeText.class' size='888'/>
+<file name='XmlViewerComponent$ScrollBigUpClick.class' size='918'/>
+</directory>
+</directory>
+<directory name='utils'>
+<file name='Commons$1.class' size='206'/>
+<file name='Commons$EntryImpl.class' size='1607'/>
+<file name='Commons.class' size='6359'/>
+<file name='Commons$EntryImpl2.class' size='2126'/>
+</directory>
+</directory>
+</directory>
+<directory name='empty'>
+</directory>
+</directory>
+<directory name='tests'>
+<file name='spojeno.xml' size='23121771'/>
+<file name='simpletest1.2.jnlp' size='2226'/>
+<file name='longer.xml' size='2634'/>
+<file name='atts1.xml' size='69'/>
+<file name='simpletest2.1.jnlp' size='2143'/>
+<file name='simpletest1.1.jnlp' size='2219'/>
+<file name='abcd1.xml' size='71'/>
+<file name='JNLP-6.0.xsd' size='12672'/>
+<file name='basic.jnlp' size='1622'/>
+<file name='abcd2.xml' size='130'/>
+<file name='fs3' size='7112'/>
+<file name='deadlocktest.jnlp' size='2108'/>
+<file name='atts2.xml' size='68'/>
+<file name='alpha.xml' size='16302753'/>
+<file name='longer2.xml' size='2634'/>
+<file name='simpletest1.jnlp' size='2271'/>
+<file name='simpletest2.jnlp' size='2105'/>
+<file name='about.jnlp' size='523'/>
+<file name='fs2' size='7507'/>
+<file name='fs1' size='7423'/>
+<file name='JNLP-6.0.dtd' size='15793'/>
+<file name='uaa.xml' size='10214914'/>
+<directory name='working'>
+<file name='pokusny2_part_00010.xml' size='838286'/>
+<file name='pokusny2_part_00001.xml' size='1047009'/>
+<file name='pokusny2_part_00002.xml' size='1048443'/>
+<file name='alpha.xml' size='16302341'/>
+<file name='pokusny2_part_00010_2.xml' size='838286'/>
+<file name='spojeny.xml' size='10214027'/>
+<file name='alpha.conf' size='629'/>
+</directory>
+</directory>
+<directory name='nbproject'>
+<file name='build-impl.xml' size='42440'/>
+<file name='project.properties' size='4482'/>
+<file name='genfiles.properties' size='643'/>
+<file name='project.xml' size='503'/>
+<directory name='private'>
+<file name='private.xml' size='281'/>
+<file name='config.properties' size='0'/>
+<file name='private.properties' size='293'/>
+<directory name='profiler'>
+<file name='configurations.xml' size='8115'/>
+</directory>
+</directory>
+</directory>
+<directory name='dist'>
+<file name='README.TXT' size='1448'/>
+<file name='XMLcompare.jar' size='216246'/>
+<directory name='lib'>
+<file name='wstx-asl-3.2.9.jar' size='524224'/>
+<file name='axiom-api-1.2.9.jar' size='418657'/>
+<file name='geronimo-activation_1.1_spec-1.0.2.jar' size='34126'/>
+<file name='axiom-c14n-1.2.9.jar' size='59432'/>
+<file name='commons-lang-2.6.jar' size='284220'/>
+<file name='commons-collections-testframework-3.2.1.jar' size='102751'/>
+<file name='geronimo-stax-api_1.0_spec-1.0.1.jar' size='28804'/>
+<file name='commons-logging-1.1.1.jar' size='60686'/>
+<file name='commons-collections-3.2.1-javadoc.jar' size='2028934'/>
+<file name='commons-collections-3.2.1-sources.jar' size='641582'/>
+<file name='axiom-impl-1.2.9.jar' size='122982'/>
+<file name='jaxen-1.1.1.jar' size='226915'/>
+<file name='axiom-dom-1.2.9.jar' size='159835'/>
+<file name='commons-collections-3.2.1.jar' size='575389'/>
+<file name='geronimo-javamail_1.4_spec-1.6.jar' size='204953'/>
+</directory>
+</directory>
+<directory name='test'>
+</directory>
+</directory>

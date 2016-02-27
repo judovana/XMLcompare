@@ -1,0 +1,207 @@
+<directory name='XMLcompare'>
+<file name='build.xml'/>
+<file name='manifest.mf'/>
+<file name='fs2xml.sh'/>
+<directory name='src'>
+<directory name='xmlcompare'>
+<file name='kukykuk2'/>
+<file name='DiffVisualisation.java'/>
+<file name='DiffVisualisation.form'/>
+<file name='Main.java'/>
+<directory name='kukykuk1'>
+</directory>
+<directory name='impl'>
+<file name='BruteForceResultKeeper.java'/>
+<file name='XmlComparator.java'/>
+<file name='ComparsionResult.java'/>
+<file name='LevenstainComparator.java'/>
+<file name='HeaderResult.java'/>
+<file name='HeadersCheckResultKeeper.java'/>
+<file name='XmlStat.java'/>
+<file name='AttributeComparator.java'/>
+<file name='AlphaAndChildCountComparator.java'/>
+<file name='ProcessingInstructionsResult.java'/>
+<file name='ChoosingValidator.java'/>
+<file name='ProcessingInstructionComparator.java'/>
+<file name='BruteForceResult.java'/>
+<directory name='gui'>
+<file name='FullTraceDialog.form'/>
+<file name='XmlViewerComponent.java'/>
+<file name='FullTraceDialog.java'/>
+<file name='ViewWithControls.java'/>
+</directory>
+</directory>
+<directory name='utils'>
+<file name='Commons.java'/>
+</directory>
+</directory>
+</directory>
+<directory name='build'>
+<file name='built-jar.properties'/>
+<directory name='classes'>
+<directory name='xmlcompare'>
+<file name='Main.class'/>
+<file name='DiffVisualisation.class'/>
+<file name='DiffVisualisation$1.class'/>
+<directory name='impl'>
+<file name='HeaderResult.class'/>
+<file name='XmlStat$TSizeComparator.class'/>
+<file name='HeadersCheckResultKeeper$State.class'/>
+<file name='ComparsionResult$Reasons.class'/>
+<file name='HeadersCheckResultKeeper.class'/>
+<file name='ProcessingInstructionComparator.class'/>
+<file name='HeadersCheckResultKeeper$1.class'/>
+<file name='ProcessingInstructionsResult.class'/>
+<file name='BruteForceResult.class'/>
+<file name='XmlStat$1.class'/>
+<file name='XmlStat.class'/>
+<file name='XmlStat$StatMember.class'/>
+<file name='XmlComparator.class'/>
+<file name='AlphaAndChildCountComparator.class'/>
+<file name='XmlStat$SizeComparator.class'/>
+<file name='ProcessingInstructionsResult$State.class'/>
+<file name='XmlStat$LengthComparator.class'/>
+<file name='AlphaAndChildCountComparator$ContentComapre.class'/>
+<file name='AttributeComparator.class'/>
+<file name='BruteForceResultKeeper.class'/>
+<file name='ComparsionResult.class'/>
+<file name='ComparsionResult$1.class'/>
+<file name='XmlStat$OrderComparator.class'/>
+<file name='XmlComparator$1.class'/>
+<file name='LevenstainComparator.class'/>
+<file name='ChoosingValidator.class'/>
+<file name='ProcessingInstructionsResult$1.class'/>
+<directory name='gui'>
+<file name='ViewWithControls$1.class'/>
+<file name='ViewWithControls$2.class'/>
+<file name='XmlViewerComponent$ScrollSmallUpClick.class'/>
+<file name='XmlViewerComponent$CollapseAtts.class'/>
+<file name='ViewWithControls$5.class'/>
+<file name='ViewWithControls$9.class'/>
+<file name='XmlViewerComponent$3.class'/>
+<file name='XmlViewerComponent$CollapseButton.class'/>
+<file name='XmlViewerComponent$ProcessingInstruction.class'/>
+<file name='XmlViewerComponent$4.class'/>
+<file name='FullTraceDialog$1$1.class'/>
+<file name='XmlViewerComponent$2.class'/>
+<file name='XmlViewerComponent$ScrollBars.class'/>
+<file name='XmlViewerComponent$ScrollVerticalRider.class'/>
+<file name='FullTraceDialog$1.class'/>
+<file name='XmlViewerComponent$OMElementExtensions.class'/>
+<file name='ViewWithControls$4.class'/>
+<file name='XmlViewerComponent$ScrollSmallDownClick.class'/>
+<file name='ViewWithControls.class'/>
+<file name='XmlViewerComponent$1.class'/>
+<file name='XmlViewerComponent$ScrollBigRightClick.class'/>
+<file name='FullTraceDialog.class'/>
+<file name='XmlViewerComponent$ScrollBarClick.class'/>
+<file name='ViewWithControls$3.class'/>
+<file name='XmlViewerComponent$AttValue.class'/>
+<file name='XmlViewerComponent$ScrollSmallRightClick.class'/>
+<file name='XmlViewerComponent$ExtensionBase.class'/>
+<file name='XmlViewerComponent$NodeAttPart.class'/>
+<file name='XmlViewerComponent$OMProcessingInstructionExtension.class'/>
+<file name='ViewWithControls$8.class'/>
+<file name='XmlViewerComponent$ScrollSmallLeftClick.class'/>
+<file name='XmlViewerComponent$CollapseText.class'/>
+<file name='XmlViewerComponent$MouseObject.class'/>
+<file name='ViewWithControls$10.class'/>
+<file name='XmlViewerComponent$NameAndVersion.class'/>
+<file name='XmlViewerComponent$CollapseChilds.class'/>
+<file name='XmlViewerComponent$ScrollBigDownClick.class'/>
+<file name='XmlViewerComponent$NodeEllPart.class'/>
+<file name='XmlViewerComponent$NodePart.class'/>
+<file name='XmlViewerComponent$ElementExtensionsObject.class'/>
+<file name='XmlViewerComponent$ScrollBigLeftClick.class'/>
+<file name='XmlViewerComponent.class'/>
+<file name='XmlViewerComponent$NodeName.class'/>
+<file name='XmlViewerComponent$CollapseNamespace.class'/>
+<file name='XmlViewerComponent$AttName.class'/>
+<file name='ViewWithControls$6.class'/>
+<file name='ViewWithControls$7.class'/>
+<file name='XmlViewerComponent$ScrollHorizontalRider.class'/>
+<file name='XmlViewerComponent$NodeText.class'/>
+<file name='XmlViewerComponent$ScrollBigUpClick.class'/>
+</directory>
+</directory>
+<directory name='utils'>
+<file name='Commons$1.class'/>
+<file name='Commons$EntryImpl.class'/>
+<file name='Commons.class'/>
+<file name='Commons$EntryImpl2.class'/>
+</directory>
+</directory>
+</directory>
+<directory name='empty'>
+</directory>
+</directory>
+<directory name='tests'>
+<file name='spojeno.xml'/>
+<file name='simpletest1.2.jnlp'/>
+<file name='longer.xml'/>
+<file name='atts1.xml'/>
+<file name='simpletest2.1.jnlp'/>
+<file name='simpletest1.1.jnlp'/>
+<file name='abcd1.xml'/>
+<file name='JNLP-6.0.xsd'/>
+<file name='basic.jnlp'/>
+<file name='abcd2.xml'/>
+<file name='deadlocktest.jnlp'/>
+<file name='atts2.xml'/>
+<file name='alpha.xml'/>
+<file name='longer2.xml'/>
+<file name='simpletest1.jnlp'/>
+<file name='simpletest2.jnlp'/>
+<file name='about.jnlp'/>
+<file name='fs2'/>
+<file name='fs1'/>
+<file name='JNLP-6.0.dtd'/>
+<file name='uaa.xml'/>
+<directory name='working'>
+<file name='pokusny2_part_00010.xml'/>
+<file name='pokusny2_part_00001.xml'/>
+<file name='pokusny2_part_00002.xml'/>
+<file name='alpha.xml'/>
+<file name='pokusny2_part_00010_2.xml'/>
+<file name='spojeny.xml'/>
+<file name='alpha.conf'/>
+</directory>
+</directory>
+<directory name='nbproject'>
+<file name='build-impl.xml'/>
+<file name='project.properties'/>
+<file name='genfiles.properties'/>
+<file name='project.xml'/>
+<directory name='private'>
+<file name='private.xml'/>
+<file name='config.properties'/>
+<file name='private.properties'/>
+<directory name='profiler'>
+<file name='configurations.xml'/>
+</directory>
+</directory>
+</directory>
+<directory name='dist'>
+<file name='README.TXT'/>
+<file name='XMLcompare.jar'/>
+<directory name='lib'>
+<file name='wstx-asl-3.2.9.jar'/>
+<file name='axiom-api-1.2.9.jar'/>
+<file name='geronimo-activation_1.1_spec-1.0.2.jar'/>
+<file name='axiom-c14n-1.2.9.jar'/>
+<file name='commons-lang-2.6.jar'/>
+<file name='commons-collections-testframework-3.2.1.jar'/>
+<file name='geronimo-stax-api_1.0_spec-1.0.1.jar'/>
+<file name='commons-logging-1.1.1.jar'/>
+<file name='commons-collections-3.2.1-javadoc.jar'/>
+<file name='commons-collections-3.2.1-sources.jar'/>
+<file name='axiom-impl-1.2.9.jar'/>
+<file name='jaxen-1.1.1.jar'/>
+<file name='axiom-dom-1.2.9.jar'/>
+<file name='commons-collections-3.2.1.jar'/>
+<file name='geronimo-javamail_1.4_spec-1.6.jar'/>
+</directory>
+</directory>
+<directory name='test'>
+</directory>
+</directory>

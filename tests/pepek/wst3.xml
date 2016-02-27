@@ -1,0 +1,5 @@
+<e:dokument xmlns:c="http://www.abc.cz/dokument.xsd" xmlns:f="http://www.abc.cz/obsah.xsd">
+  <f:obsah>
+    <nazev xmlns="http://www.abc.cz/obsah.xsd">abcd</nazev>
+  </f:obsah>
+</e:dokument>

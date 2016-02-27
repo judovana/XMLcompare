@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <customer>
+      <id>5</id> <!--povine, u kazdeho noveho uzivatele  zvysit o jedna, slouzi na vnitrni navigaci, platne jsou pouze klana cisla (tzn smazat uzivatele muzes tal ze mu pridas  - pred cislo, nula ma jeste jiny vyznam;)-->
+      <key>pneuservis</key>
+      <data>
+        <title>AAFredy Kotlik</title> <!--povine, nazev firmy, prave jednou -->
+        <open><!-- povine, obsahuje ruzne otviraci doby -->
+          <period> <!-- minimalne jedna povina (tzn 1-n), naor sudy lichy tyden ma dve periody, zimni, letni podzimni otviracka tri atd...-->
+            <comment>zima</comment> <!-- nepoviny, 0-1 , ma zobrazeni JEDNA-->
+            <day which="mo">07-22</day><!-- vsechny dny js nepovine, tzn 0-1 atribut which JE POVINY slouzi k pripadne identifikaci dne. Tzn pokud je tam den, musi mit napsano jaky. Konstanta CLOSED se v html zobrazi jako zavřeno a muze mit jiny styl-->
+            <day which="tu">07-22</day> <!-- pokud ve dnu neni CLOSED, muzes tam mit co chces-->
+            <day which="we">CLOSED</day>
+            <day which="th">07-22</day>
+            <day which="fr">07-22</day>
+            <day which="sa">09-15</day>
+            <day which="su">CLOSED</day>
+          </period>
+          <period>
+            <comment>Leto</comment>
+            <day which="mo">06-15</day>
+            <day which="tu">06-15</day>
+            <day which="we">06-15</day>
+            <day which="th">06-15</day>
+            <day which="fr">CLOSED</day>
+            <day which="sa">CLOSED</day>
+            <day which="su">CLOSED</day>
+            <hint>je mozny se dopmluvit po teleee</hint> <!-- 0-n, kazdy hint ma zobrazeni DVA, kazdy hit jeden radek-->
+          </period>
+        </open>
+        <contacts>                <!-- povine -->
+          <address>               <!-- povine -->               
+            <street>Frnkova</street>    <!-- povine -->      
+            <hause>49</hause>          <!-- povine -->
+            <post>612 00</post>        <!-- povine -->
+            <cityPart>Královo Pole</cityPart>      <!-- ackoliv je to cast vyhledavacviho dotazu, JE by yt NEpovinny -->
+            <city>Brno</city>                       <!-- !povine! na strojove zpracovani -->
+          </address>
+          <tele>+420 05 0609112211</tele>         <!-- povne -->
+          <email>kotlik@jinadira.cz</email>     <!-- nepovine -->
+          <webPage>http://someFucking.www</webPage>     <!-- nepovine, link a nazev odkazu na jejich stranky -->
+        </contacts>
+        <seznamMaplink>
+          <![CDATA[http://www.mapy.cz/#mm=ZTtTcP@ax=138097536@ay=132904816@at=Iwo@ad=Hyper%20super%20jgdfgd@x=138101328@y=132905568@z=16]]></seznamMaplink>
+          <!-- poviny link na mapy cz. Toto je odkaz, ktery na ktery bude presmerovan po kliknuti na mapImage, udrzuj ty c data kuli nesmysloznakyum -->
+         <mapImage>mapa1.jpg</mapImage>
+         <!-- rucni obrazek napr mapaXP18.jpg ktery obsahuje scrrenshot z nejaky mapoy, nebo proste obrazek mapy kde sidly"--> 
+          <images> <!-- poviny element, ovsem kdyz obsahuje 0images pak nema vliv na stranku-->
+            <image>i1</image> <!-- 0-n elementu image, obsahuji 'kostru' nazvu obrazku' kostra-SMALL.jpg (cele presne:) is .jpg)  se zobrazi ve strance a po kliknuti na ni se v novem okne zobrazi klostra-BIG.jpg-->
+            <image>i2</image>
+            <image>i1</image>
+            <image>i2</image>
+            <image>i1</image>
+            <image>i2</image>
+            <image>i1</image>
+            <image>i2</image>
+            <image>i1</image>
+            <image>i2</image>
+          </images>
+          <logo>pneu1logo.png</logo><!-- rucni obrazek napr logoOlgoj.png ktery obsahuje logo firmy, NEPOVINE"-->
+          <notes><!-- nepovine, poznamky k firme -->
+          <paragraph>ejay super text</paragraph><!-- 0-n odstavcuu poznamek-->
+          <paragraph>ejay super text line 2</paragraph>
+          <paragraph>ejay super text line 3 jhhkopgekraopfkfpwoke [peogk opgfwpwek rejrwepoj i hop]wej wjwpogjeopgw jgq]jg ]rojgepog jropg qreog jqhg jerogjet hj e]ophj e]oph j[hjhaphjaeph j[phjrhj fd gdf;jj df;gh eroghjer gf gdfkj gekraopfkfpwoke [peogk opgfwpwek rejrwepoj i hop]wej wjwpogjeopgw jgq]jg ]rojgepog jropg qreog jqhg jerogjet hj e]ophj e]oph j[hjhaphjaeph j[phjrhj fd gdf;jj df;gh eroghjer gf gdfkj gekraopfkfpwoke [peogk opgfwpwek rejrwepoj i hop]wej wjwpogjeopgw jgq]jg ]rojgepog jropg qreog jqhg jerogjet hj e]ophj e]oph j[hjhaphjaeph j[phjrhj fd gdf;jj df;gh eroghjer gf gdfkj gekraopfkfpwoke [peogk opgfwpwek rejrwepoj i hop]wej wjwpogjeopgw jgq]jg ]rojgepog jropg qreog jqhg jerogjet hj e]ophj e]oph j[hjhaphjaeph j[phjrhj fd gdf;jj df;gh eroghjer gf gdfkj</paragraph>
+          <paragraph>ejay super text line 4</paragraph>
+          </notes>
+        </data>
+      </customer>
+<customer>
+      <id>6</id> <!--povine, u kazdeho noveho uzivatele  zvysit o jedna, slouzi na vnitrni navigaci, platne jsou pouze klana cisla (tzn smazat uzivatele muzes tal ze mu pridas  - pred cislo, nula ma jeste jiny vyznam;)-->
+      <key>pneuservis</key>
+      <data>
+        <title>AAFredy Kotlik</title> <!--povine, nazev firmy, prave jednou -->
+        <open><!-- povine, obsahuje ruzne otviraci doby -->
+          <period> <!-- minimalne jedna povina (tzn 1-n), naor sudy lichy tyden ma dve periody, zimni, letni podzimni otviracka tri atd...-->
+            <comment>zima</comment> <!-- nepoviny, 0-1 , ma zobrazeni JEDNA-->
+            <day which="mo">07-22</day><!-- vsechny dny js nepovine, tzn 0-1 atribut which JE POVINY slouzi k pripadne identifikaci dne. Tzn pokud je tam den, musi mit napsano jaky. Konstanta CLOSED se v html zobrazi jako zavřeno a muze mit jiny styl-->
+            <day which="tu">07-22</day> <!-- pokud ve dnu neni CLOSED, muzes tam mit co chces-->
+            <day which="we">CLOSED</day>
+            <day which="th">07-22</day>
+            <day which="fr">07-22</day>
+            <day which="sa">09-15</day>
+            <day which="su">CLOSED</day>
+          </period>
+          <period>
+            <comment>Leto</comment>
+            <day which="mo">06-15</day>
+            <day which="tu">06-15</day>
+            <day which="we">06-15</day>
+            <day which="th">06-15</day>
+            <day which="fr">CLOSED</day>
+            <day which="sa">CLOSED</day>
+            <day which="su">CLOSED</day>
+            <hint>je mozny se dopmluvit po teleee</hint> <!-- 0-n, kazdy hint ma zobrazeni DVA, kazdy hit jeden radek-->
+          </period>
+        </open>
+        <contacts>                <!-- povine -->
+          <address>               <!-- povine -->               
+            <street>Frnkova</street>    <!-- povine -->      
+            <hause>49</hause>          <!-- povine -->
+            <post>612 00</post>        <!-- povine -->
+            <cityPart>Žabovřesky</cityPart>      <!-- ackoliv je to cast vyhledavacviho dotazu, JE by yt NEpovinny -->
+            <city>Brno</city>                       <!-- !povine! na strojove zpracovani -->
+          </address>
+          <tele>+420 05 0609112211</tele>         <!-- povne -->
+          <email>kotlik@jinadira.cz</email>     <!-- nepovine -->
+          <webPage>http://someFucking.www</webPage>     <!-- nepovine, link a nazev odkazu na jejich stranky -->
+        </contacts>
+        <seznamMaplink>
+          <![CDATA[http://www.mapy.cz/#mm=ZTtTcP@ax=138097536@ay=132904816@at=Iwo@ad=Hyper%20super%20jgdfgd@x=138101328@y=132905568@z=16]]></seznamMaplink>
+          <!-- poviny link na mapy cz. Toto je odkaz, ktery na ktery bude presmerovan po kliknuti na mapImage, udrzuj ty c data kuli nesmysloznakyum -->
+         <mapImage>mapa1.jpg</mapImage>
+         <!-- rucni obrazek napr mapaXP18.jpg ktery obsahuje scrrenshot z nejaky mapoy, nebo proste obrazek mapy kde sidly"--> 
+          <images> <!-- poviny element, ovsem kdyz obsahuje 0images pak nema vliv na stranku-->
+            <image>i1</image> <!-- 0-n elementu image, obsahuji 'kostru' nazvu obrazku' kostra-SMALL.jpg (cele presne:) is .jpg)  se zobrazi ve strance a po kliknuti na ni se v novem okne zobrazi klostra-BIG.jpg-->
+            <image>i2</image>
+            <image>i1</image>
+            <image>i2</image>
+            <image>i1</image>
+            <image>i2</image>
+            <image>i1</image>
+            <image>i2</image>
+            <image>i1</image>
+            <image>i2</image>
+          </images>
+          <logo>pneu1logo.png</logo><!-- rucni obrazek napr logoOlgoj.png ktery obsahuje logo firmy, NEPOVINE"-->
+          <notes><!-- nepovine, poznamky k firme -->
+          <paragraph>ejay super text</paragraph><!-- 0-n odstavcuu poznamek-->
+          <paragraph>ejay super text line 2</paragraph>
+          <paragraph>ejay super text line 3 jhhkopgekraopfkfpwoke [peogk opgfwpwek rejrwepoj i hop]wej wjwpogjeopgw jgq]jg ]rojgepog jropg qreog jqhg jerogjet hj e]ophj e]oph j[hjhaphjaeph j[phjrhj fd gdf;jj df;gh eroghjer gf gdfkj gekraopfkfpwoke [peogk opgfwpwek rejrwepoj i hop]wej wjwpogjeopgw jgq]jg ]rojgepog jropg qreog jqhg jerogjet hj e]ophj e]oph j[hjhaphjaeph j[phjrhj fd gdf;jj df;gh eroghjer gf gdfkj gekraopfkfpwoke [peogk opgfwpwek rejrwepoj i hop]wej wjwpogjeopgw jgq]jg ]rojgepog jropg qreog jqhg jerogjet hj e]ophj e]oph j[hjhaphjaeph j[phjrhj fd gdf;jj df;gh eroghjer gf gdfkj gekraopfkfpwoke [peogk opgfwpwek rejrwepoj i hop]wej wjwpogjeopgw jgq]jg ]rojgepog jropg qreog jqhg jerogjet hj e]ophj e]oph j[hjhaphjaeph j[phjrhj fd gdf;jj df;gh eroghjer gf gdfkj</paragraph>
+          <paragraph>ejay super text line 4</paragraph>
+          </notes>
+        </data>
+      </customer>
+          
+ <customer>
+      <id>4</id> <!--povine, u kazdeho noveho uzivatele  zvysit o jedna, slouzi na vnitrni navigaci, platne jsou pouze klana cisla (tzn smazat uzivatele muzes tal ze mu pridas  - pred cislo, nula ma jeste jiny vyznam;)-->
+      <key>pneuservis</key>
+      <data>
+        <title>AAFredy Kotlik</title> <!--povine, nazev firmy, prave jednou -->
+        <open><!-- povine, obsahuje ruzne otviraci doby -->
+          <period> <!-- minimalne jedna povina (tzn 1-n), naor sudy lichy tyden ma dve periody, zimni, letni podzimni otviracka tri atd...-->
+            <comment>zima</comment> <!-- nepoviny, 0-1 , ma zobrazeni JEDNA-->
+            <day which="mo">07-22</day><!-- vsechny dny js nepovine, tzn 0-1 atribut which JE POVINY slouzi k pripadne identifikaci dne. Tzn pokud je tam den, musi mit napsano jaky. Konstanta CLOSED se v html zobrazi jako zavřeno a muze mit jiny styl-->
+            <day which="tu">07-22</day> <!-- pokud ve dnu neni CLOSED, muzes tam mit co chces-->
+            <day which="we">CLOSED</day>
+            <day which="th">07-22</day>
+            <day which="fr">07-22</day>
+            <day which="sa">09-15</day>
+            <day which="su">CLOSED</day>
+          </period>
+          <period>
+            <comment>Leto</comment>
+            <day which="mo">06-15</day>
+            <day which="tu">06-15</day>
+            <day which="we">06-15</day>
+            <day which="th">06-15</day>
+            <day which="fr">CLOSED</day>
+            <day which="sa">CLOSED</day>
+            <day which="su">CLOSED</day>
+            <hint>je mozny se dopmluvit po teleee</hint> <!-- 0-n, kazdy hint ma zobrazeni DVA, kazdy hit jeden radek-->
+          </period>
+        </open>
+        <contacts>                <!-- povine -->
+          <address>               <!-- povine -->               
+            <street>Frnkova</street>    <!-- povine -->      
+            <hause>49</hause>          <!-- povine -->
+            <post>612 00</post>        <!-- povine -->
+            <cityPart>Královo Pole</cityPart>      <!-- ackoliv je to cast vyhledavacviho dotazu, JE by yt NEpovinny -->
+            <city>Brno</city>                       <!-- !povine! na strojove zpracovani -->
+          </address>
+          <tele>+420 05 0609112211</tele>         <!-- povne -->
+          <email>kotlik@jinadira.cz</email>     <!-- nepovine -->
+          <webPage>http://someFucking.www</webPage>     <!-- nepovine, link a nazev odkazu na jejich stranky -->
+        </contacts>
+        <seznamMaplink>
+          <![CDATA[http://www.mapy.cz/#mm=ZTtTcP@ax=138097536@ay=132904816@at=Iwo@ad=Hyper%20super%20jgdfgd@x=138101328@y=132905568@z=16]]></seznamMaplink>
+          <!-- poviny link na mapy cz. Toto je odkaz, ktery na ktery bude presmerovan po kliknuti na mapImage, udrzuj ty c data kuli nesmysloznakyum -->
+         <mapImage>mapa1.jpg</mapImage>
+         <!-- rucni obrazek napr mapaXP18.jpg ktery obsahuje scrrenshot z nejaky mapoy, nebo proste obrazek mapy kde sidly"--> 
+          <images> <!-- poviny element, ovsem kdyz obsahuje 0images pak nema vliv na stranku-->
+            <image>i1</image> <!-- 0-n elementu image, obsahuji 'kostru' nazvu obrazku' kostra-SMALL.jpg (cele presne:) is .jpg)  se zobrazi ve strance a po kliknuti na ni se v novem okne zobrazi klostra-BIG.jpg-->
+            <image>i2</image>
+            <image>i1</image>
+            <image>i2</image>
+            <image>i1</image>
+            <image>i2</image>
+            <image>i1</image>
+            <image>i2</image>
+            <image>i1</image>
+            <image>i2</image>
+          </images>
+          <logo>pneu1logo.png</logo><!-- rucni obrazek napr logoOlgoj.png ktery obsahuje logo firmy, NEPOVINE"-->
+          <notes><!-- nepovine, poznamky k firme -->
+          <paragraph>ejay super text</paragraph><!-- 0-n odstavcuu poznamek-->
+          <paragraph>ejay super text line 2</paragraph>
+          <paragraph>ejay super text line 3 jhhkopgekraopfkfpwoke [peogk opgfwpwek rejrwepoj i hop]wej wjwpogjeopgw jgq]jg ]rojgepog jropg qreog jqhg jerogjet hj e]ophj e]oph j[hjhaphjaeph j[phjrhj fd gdf;jj df;gh eroghjer gf gdfkj gekraopfkfpwoke [peogk opgfwpwek rejrwepoj i hop]wej wjwpogjeopgw jgq]jg ]rojgepog jropg qreog jqhg jerogjet hj e]ophj e]oph j[hjhaphjaeph j[phjrhj fd gdf;jj df;gh eroghjer gf gdfkj gekraopfkfpwoke [peogk opgfwpwek rejrwepoj i hop]wej wjwpogjeopgw jgq]jg ]rojgepog jropg qreog jqhg jerogjet hj e]ophj e]oph j[hjhaphjaeph j[phjrhj fd gdf;jj df;gh eroghjer gf gdfkj gekraopfkfpwoke [peogk opgfwpwek rejrwepoj i hop]wej wjwpogjeopgw jgq]jg ]rojgepog jropg qreog jqhg jerogjet hj e]ophj e]oph j[hjhaphjaeph j[phjrhj fd gdf;jj df;gh eroghjer gf gdfkj</paragraph>
+          <paragraph>ejay super text line 4</paragraph>
+          </notes>
+        </data>
+      </customer>
+  <customer>
+    <id>1</id>
+    <key>kadeřnictví</key>
+    <data>
+      <title>Kadeřnictví u Amóra</title>
+      <open>
+        <period>
+          <day which="mo">11-17</day>
+          <day which="tu">14-22</day>
+          <day which="we">7-12</day>
+          <day which="th">11-17</day>
+          <day which="fr">14-22</day>
+          <day which="sa">Jen pro obědnané</day>
+          <day which="su">CLOSED</day>
+        </period>
+      </open>
+      <contacts>
+        <address>
+          <street>Frantíkova</street>
+          <hause>18</hause>
+          <post>612 45</post>
+          <cityPart>Řečkovice</cityPart>
+          <city>Brno</city>
+        </address>
+        <tele>0609112211</tele>
+        <email>frantova@prdel.com</email>
+      </contacts>
+        <seznamMaplink>
+          <![CDATA[http://www.mapy.cz/#mm=ZTtTcP@ax=138097536@ay=132904816@at=Iwo@ad=Hyper%20super%20jgdfgd@x=138101328@y=132905568@z=16]]></seznamMaplink>
+          <mapImage>mapa1.jpg</mapImage>
+      <images>
+        <image>i1</image>
+        <image>i2</image>
+      </images>
+    </data>
+  </customer>
+  
+    <customer>
+      <id>3</id>
+      <key>pneuservis</key>
+      <data>
+        <title>ZZFranta hustilka</title>
+        <open>
+          <period>
+            <comment>zima</comment>
+            <day which="mo">07-22</day>
+            <day which="tu">07-22</day>
+            <day which="we">CLOSED</day>
+            <day which="th">07-22</day>
+            <day which="fr">07-22</day>
+            <day which="sa">09-15</day>
+            <day which="su">CLOSED</day>
+          </period>
+          <period>
+            <comment>Leto</comment>
+            <day which="mo">06-15</day>
+            <day which="tu">06-15</day>
+            <day which="we">06-15</day>
+            <day which="th">06-15</day>
+            <day which="fr">CLOSED</day>
+            <day which="sa">CLOSED</day>
+            <day which="su">CLOSED</day>
+            <hint>je mozny se dopmluvit po tele</hint>
+          </period>
+        </open>
+        <contacts>
+          <address>
+            <street>Frnkova</street>
+            <hause>49</hause>
+            <post>612 48</post>
+          <!-- <cityPart>Královo Pole</cityPart>-->
+            <city>Brno</city>
+          </address>
+          <tele>+420 05 0609112211</tele>
+          <email>pumpicka@jinadira.cz</email>
+        </contacts>
+          <seznamMaplink>
+          <![CDATA[http://www.mapy.cz/#mm=ZTtTcP@ax=138097536@ay=132904816@at=Iwo@ad=Hyper%20super%20jgdfgd@x=138101328@y=132905568@z=16]]></seznamMaplink>
+          <mapImage>mapa1.jpg</mapImage>
+      </data>
+    </customer>
+        
+    </catalog>

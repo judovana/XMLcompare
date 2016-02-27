@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <customer>
+      <id>1</id> <!--povine, u kazdeho noveho uzivatele  zvysit o jedna, slouzi na vnitrni navigaci, platne jsou pouze klana cisla (tzn smazat uzivatele muzes tal ze mu pridas  - pred cislo, nula ma jeste jiny vyznam;)-->
+      <key>veterinární ordinace</key>
+      <data>
+        <title>EDEN veterinární ordinace</title> <!--povine, nazev firmy, prave jednou -->
+        <open><!-- povine, obsahuje ruzne otviraci doby -->
+          <period> <!-- minimalne jedna povina (tzn 1-n), naor sudy lichy tyden ma dve periody, zimni, letni podzimni otviracka tri atd...-->
+            
+            <day which="mo">09:00-12:00 15:00-19:00</day><!-- vsechny dny js nepovine, tzn 0-1 atribut which JE POVINY slouzi k pripadne identifikaci dne. Tzn pokud je tam den, musi mit napsano jaky. Konstanta CLOSED se v html zobrazi jako zavřeno a muze mit jiny styl-->
+            <day which="tu">09:00-12:00 15:00-19:00</day> <!-- pokud ve dnu neni CLOSED, muzes tam mit co chces-->
+            <day which="we">09:00-12:00 15:00-19:00</day>
+            <day which="th">09:00-12:00 15:00-19:00</day>
+            <day which="fr">09:00-12:00 15:00-19:00</day>
+            <day which="sa">CLOSED</day>
+            <day which="su">CLOSED</day>
+          </period>
+          
+        </open>
+        <contacts>                <!-- povine -->
+          <address>               <!-- povine -->               
+            <street>Purkyňova</street>    <!-- povine -->      
+            <hause>35g</hause>          <!-- povine -->
+            <post>612 00</post>        <!-- povine -->
+            <cityPart>Královo Pole</cityPart>      <!-- ackoliv je to cast vyhledavacviho dotazu, JE by yt NEpovinny -->
+            <city>Brno</city>                       <!-- !povine! na strojove zpracovani -->
+          </address>
+          <tele>+420 725 334 737</tele>         <!-- povne -->
+          <email>info@veterinaeden.cz</email>     <!-- nepovine -->
+          <webPage>http://www.veterinaeden.cz</webPage>     <!-- nepovine, link a nazev odkazu na jejich stranky -->
+        </contacts>
+        <seznamMaplink>
+          <![CDATA[http://www.mapy.cz/#mm=ZTtTcP@ax=138093072@ay=132903264@at=EDEN%20veterin%C3%A1rn%C3%AD%20ordinace@ad=pro%20psy,%20ko%C4%8Dky,%20drobn%C3%A9%20savce%20a%20plazy@x=138094672@y=132902656@z=16]]></seznamMaplink>
+          <!-- poviny link na mapy cz. Toto je odkaz, ktery na ktery bude presmerovan po kliknuti na mapImage, udrzuj ty c data kuli nesmysloznakyum -->
+         <mapImage>veterinaeden.png</mapImage>
+         <!-- rucni obrazek napr mapaXP18.jpg ktery obsahuje scrrenshot z nejaky mapoy, nebo proste obrazek mapy kde sidly"--> 
+          <images> <!-- poviny element, ovsem kdyz obsahuje 0images pak nema vliv na stranku-->
+            <image>veterinaeden</image> <!-- 0-n elementu image, obsahuji 'kostru' nazvu obrazku' kostra-SMALL.jpg (cele presne:) is .jpg)  se zobrazi ve strance a po kliknuti na ni se v novem okne zobrazi klostra-BIG.jpg-->
+            <image>veterinaeden1</image>
+          </images>
+          
+          <notes><!-- nepovine, poznamky k firme -->
+          <paragraph>Možnost objednání na konkrétní hodinu.</paragraph><!-- 0-n odstavcuu poznamek-->
+          <paragraph>Registrovaní pacienti i mimo ordinační hodiny.</paragraph>
+          <paragraph>V případě nutnosti i návštěvy přímo u pacientů.</paragraph>
+          
+          </notes>
+        </data>
+      </customer>
+
+  <customer>
+      <id>2</id> <!--povine, u kazdeho noveho uzivatele  zvysit o jedna, slouzi na vnitrni navigaci, platne jsou pouze klana cisla (tzn smazat uzivatele muzes tal ze mu pridas  - pred cislo, nula ma jeste jiny vyznam;)-->
+      <key>zážitky</key>
+      <data>
+        <title>Strict Comp</title> <!--povine, nazev firmy, prave jednou -->
+        <open><!-- povine, obsahuje ruzne otviraci doby -->
+          
+          <period>
+            
+            <day which="mo">08:00-18:00</day>
+            <day which="tu">08:00-18:00</day>
+            <day which="we">08:00-18:00</day>
+            <day which="th">08:00-18:00</day>
+            <day which="fr">08:00-18:00</day>
+            <day which="sa">CLOSED</day>
+            <day which="su">CLOSED</day>
+            
+          </period>
+        </open>
+        <contacts>                <!-- povine -->
+          <address>               <!-- povine -->               
+            <street>Kovácká</street>    <!-- povine -->      
+            <hause>7b</hause>          <!-- povine -->
+            <post>618 00</post>        <!-- povine -->
+            <cityPart>Černovice</cityPart>      <!-- ackoliv je to cast vyhledavacviho dotazu, JE by yt NEpovinny -->
+            <city>Brno</city>                       <!-- !povine! na strojove zpracovani -->
+          </address>
+          <tele>+420 608 701 782</tele>         <!-- povne -->
+          <email>info@strictcomp.cz</email>     <!-- nepovine -->
+          <webPage>http://www.strictcomp.cz</webPage>     <!-- nepovine, link a nazev odkazu na jejich stranky -->
+        </contacts>
+        <seznamMaplink>
+          <![CDATA[http://www.mapy.cz/#mm=ZTtTcP@sa=s@st=s@ssq=kov%C3%A1ck%C3%A1%207b%20brno@sss=1@ssp=138188592_132767088_138217520_132789744@x=138204249@y=132775379@z=16]]></seznamMaplink>
+          <!-- poviny link na mapy cz. Toto je odkaz, ktery na ktery bude presmerovan po kliknuti na mapImage, udrzuj ty c data kuli nesmysloznakyum -->
+         <mapImage>strictcomp.png</mapImage>
+         <!-- rucni obrazek napr mapaXP18.jpg ktery obsahuje scrrenshot z nejaky mapoy, nebo proste obrazek mapy kde sidly"--> 
+          <images> <!-- poviny element, ovsem kdyz obsahuje 0images pak nema vliv na stranku-->
+            <image>strict1</image> <!-- 0-n elementu image, obsahuji 'kostru' nazvu obrazku' kostra-SMALL.jpg (cele presne:) is .jpg)  se zobrazi ve strance a po kliknuti na ni se v novem okne zobrazi klostra-BIG.jpg-->
+            <image>strict2</image>
+            <image>strict3</image>
+            <image>strict4</image>
+            
+          </images>
+          <logo>strictcomplogo.png</logo>
+          <notes><!-- nepovine, poznamky k firme -->
+          <paragraph>STRICT COMP s.r.o. je českou firmou, nabízející sportovní vůz k pronájmu dle aktuální nabídky.</paragraph><!-- 0-n odstavcuu poznamek-->
+          <paragraph>Aktuálně:</paragraph>
+          <paragraph>Nissan 350Z (206 kW/363Nm)</paragraph>
+          <paragraph>VW Scirocco (147 kW/280Nm)</paragraph>
+          </notes>
+        </data>
+      </customer>   
+
+<customer>
+      <id>3</id> <!--povine, u kazdeho noveho uzivatele  zvysit o jedna, slouzi na vnitrni navigaci, platne jsou pouze klana cisla (tzn smazat uzivatele muzes tal ze mu pridas  - pred cislo, nula ma jeste jiny vyznam;)-->
+      <key>ostatní služby</key>
+      <data>
+        <title>Steinhauser</title> <!--povine, nazev firmy, prave jednou -->
+        <open><!-- povine, obsahuje ruzne otviraci doby -->
+          
+          <period>
+            
+            <day which="mo">08:00-18:00</day>
+            <day which="tu">08:00-18:00</day>
+            <day which="we">08:00-18:00</day>
+            <day which="th">08:00-18:00</day>
+            <day which="fr">08:00-18:00</day>
+            <day which="sa">CLOSED</day>
+            <day which="su">CLOSED</day>
+            
+          </period>
+        </open>
+        <contacts>                <!-- povine -->
+          <address>               <!-- povine -->               
+            <street>Kovácká</street>    <!-- povine -->      
+            <hause>7b</hause>          <!-- povine -->
+            <post>618 00</post>        <!-- povine -->
+            <cityPart>Černovice</cityPart>      <!-- ackoliv je to cast vyhledavacviho dotazu, JE by yt NEpovinny -->
+            <city>Brno</city>                       <!-- !povine! na strojove zpracovani -->
+          </address>
+          <tele>+420 608 700 764</tele>         <!-- povne -->
+          
+          <email>steinhauser@seznam.cz</email>     <!-- nepovine -->
+          <webPage>http://www.steinhauserbrno.cz</webPage>     <!-- nepovine, link a nazev odkazu na jejich stranky -->
+        </contacts>
+        <seznamMaplink>
+          <![CDATA[http://www.mapy.cz/#mm=ZTtTcP@sa=s@st=s@ssq=kov%C3%A1ck%C3%A1%207b%20brno@sss=1@ssp=138188592_132767088_138217520_132789744@x=138204249@y=132775379@z=16]]></seznamMaplink>
+          <!-- poviny link na mapy cz. Toto je odkaz, ktery na ktery bude presmerovan po kliknuti na mapImage, udrzuj ty c data kuli nesmysloznakyum -->
+         <mapImage>steinhauser.png</mapImage>
+         <!-- rucni obrazek napr mapaXP18.jpg ktery obsahuje scrrenshot z nejaky mapoy, nebo proste obrazek mapy kde sidly"--> 
+          <images> <!-- poviny element, ovsem kdyz obsahuje 0images pak nema vliv na stranku-->
+            
+          </images>
+          
+          <notes><!-- nepovine, poznamky k firme -->
+          <paragraph>Čištění s konzervací a průmyslové odmašťování.</paragraph><!-- 0-n odstavcuu poznamek-->
+          <paragraph>Čištění rozvaděčů, elektromotorů, generátorů, transformátorů. </paragraph>
+          <paragraph>Prodáváme čisticí techniku, provádíme sanace po požáru a povodních.</paragraph>
+          
+          </notes>
+        </data>
+      </customer>    
+
+<customer>
+      <id>4</id> <!--povine, u kazdeho noveho uzivatele  zvysit o jedna, slouzi na vnitrni navigaci, platne jsou pouze klana cisla (tzn smazat uzivatele muzes tal ze mu pridas  - pred cislo, nula ma jeste jiny vyznam;)-->
+      <key>plastová okna</key>
+      <data>
+        <title>Profiplast spol. s r. o.</title> <!--povine, nazev firmy, prave jednou -->
+        <open><!-- povine, obsahuje ruzne otviraci doby -->
+          
+          <period>
+            
+            <day which="mo">08:00-11:00 12:00-17:00</day>
+            <day which="tu">08:00-11:00 12:00-17:00</day>
+            <day which="we">08:00-11:00 12:00-17:00</day>
+            <day which="th">08:00-11:00 12:00-17:00</day>
+            <day which="fr">08:00-11:00 12:00-17:00</day>
+            <day which="sa">CLOSED</day>
+            <day which="su">CLOSED</day>
+            
+          </period>
+        </open>
+        <contacts>                <!-- povine -->
+          <address>               <!-- povine -->               
+            <street>Vranovská</street>    <!-- povine -->      
+            <hause>38</hause>          <!-- povine -->
+            <post>614 00</post>        <!-- povine -->
+            <cityPart>Zábrdovice</cityPart>      <!-- ackoliv je to cast vyhledavacviho dotazu, JE by yt NEpovinny -->
+            <city>Brno</city>                       <!-- !povine! na strojove zpracovani -->
+          </address>
+          <tele>+420 545 214 647-8</tele>         <!-- povne -->
+          <email>profiplast@profiplast.eu</email>     <!-- nepovine -->
+          <webPage>http://www.profiplast.eu</webPage>     <!-- nepovine, link a nazev odkazu na jejich stranky -->
+        </contacts>
+        <seznamMaplink>
+          <![CDATA[http://www.mapy.cz/#mm=ZP@ax=138191728@ay=132853056@at=Profiplast%20spol.%20s%20r.%20o.@ad=plastov%C3%A1%20okna@x=138193184@y=132852560@z=16]]></seznamMaplink>
+          <!-- poviny link na mapy cz. Toto je odkaz, ktery na ktery bude presmerovan po kliknuti na mapImage, udrzuj ty c data kuli nesmysloznakyum -->
+         <mapImage>profiplast.png</mapImage>
+         <!-- rucni obrazek napr mapaXP18.jpg ktery obsahuje scrrenshot z nejaky mapoy, nebo proste obrazek mapy kde sidly"--> 
+          <images> <!-- poviny element, ovsem kdyz obsahuje 0images pak nema vliv na stranku-->
+            
+            <image>profiplast</image>
+            
+          </images>
+          <logo>profiplastlogo.png</logo><!-- rucni obrazek napr logoOlgoj.png ktery obsahuje logo firmy, NEPOVINE"-->
+          <notes><!-- nepovine, poznamky k firme -->
+          <paragraph>Dodávka a montáž otvorových výplní – oken, dveří a doplňků (žaluzie, parapety, lamelové rolety, sítě proti hmyzu)</paragraph><!-- 0-n odstavcuu poznamek-->
+          <paragraph>Revitalizace bytových domů.</paragraph>
+          <paragraph>Komplexní provedení zateplovacích systémů.</paragraph>
+          <paragraph>Dodávka a montáž ocelových balkonů, železobetonových lodžií, ocelových zábradlí.</paragraph>
+          <paragraph>Opravy střech a výtahů.</paragraph>
+          </notes>
+        </data>
+      </customer>
+
+<customer> 
+      <id>5</id> <!--povine, u kazdeho noveho uzivatele  zvysit o jedna, slouzi na vnitrni navigaci, platne jsou pouze klana cisla (tzn smazat uzivatele muzes tal ze mu pridas  - pred cislo, nula ma jeste jiny vyznam;)--> 
+      <key>pneuservisy</key> 
+      <data> 
+        <title>Verex</title> <!--povine, nazev firmy, prave jednou --> 
+        <open><!-- povine, obsahuje ruzne otviraci doby --> 
+          
+            
+          <period> 
+            
+            <day which="mo">08:00-18:00</day> 
+            <day which="tu">08:00-18:00</day> 
+            <day which="we">08:00-18:00</day> 
+            <day which="th">08:00-18:00</day> 
+            <day which="fr">08:00-18:00</day> 
+            <day which="sa">08:00-12:00</day> 
+            <day which="su">CLOSED</day> 
+            
+          </period> 
+        </open> 
+        <contacts>                <!-- povine --> 
+          <address>               <!-- povine -->               
+            <street>Koliště</street>    <!-- povine -->      
+            <hause>67a</hause>          <!-- povine --> 
+            <post>602 00</post>        <!-- povine --> 
+            <cityPart>Brno-město</cityPart>      <!-- ackoliv je to cast vyhledavacviho dotazu, JE by yt NEpovinny --> 
+            <city>Brno</city>                       <!-- !povine! na strojove zpracovani --> 
+          </address> 
+          <tele>+420 543 213 904</tele>         <!-- povne --> 
+          <email>pneu@verex.cz</email>     <!-- nepovine --> 
+          <webPage>http://www.verex.cz</webPage>     <!-- nepovine, link a nazev odkazu na jejich stranky --> 
+        </contacts> 
+        <seznamMaplink> 
+          <![CDATA[http://www.mapy.cz/#mm=ZTtTcP@ax=138168928@ay=132808704@at=verex@ad=pneuservis@x=138170800@y=132808816@z=16]]></seznamMaplink> 
+          <!-- poviny link na mapy cz. Toto je odkaz, ktery na ktery bude presmerovan po kliknuti na mapImage, udrzuj ty c data kuli nesmysloznakyum --> 
+         <mapImage>verex.png</mapImage> 
+         <!-- rucni obrazek napr mapaXP18.jpg ktery obsahuje scrrenshot z nejaky mapoy, nebo proste obrazek mapy kde sidly"--> 
+          <images> <!-- poviny element, ovsem kdyz obsahuje 0images pak nema vliv na stranku--> 
+            
+          </images> 
+          
+          <notes><!-- nepovine, poznamky k firme --> 
+          <paragraph>Provádíme kompletní profesionální pneuservis a čištění interiérů vozů s nejlepším strojním vybavením v Brně.</paragraph><!-- 0-n odstavcuu poznamek--> 
+          <paragraph>Prodáváme on-line osobní, lehké nákladní a motocyklové pneumatiky, Alu a plechové disky  na všechny značky vozů v široké nabídce a to maloobchodně i velkoobchodně za skvělé ceny.</paragraph> 
+          
+          </notes> 
+        </data> 
+      </customer>
+
+<customer>
+      <id>6</id> <!--povine, u kazdeho noveho uzivatele  zvysit o jedna, slouzi na vnitrni navigaci, platne jsou pouze klana cisla (tzn smazat uzivatele muzes tal ze mu pridas  - pred cislo, nula ma jeste jiny vyznam;)-->
+      <key>potraviny</key>
+      <data>
+        <title>Libuše Henzlová</title> <!--povine, nazev firmy, prave jednou -->
+        <open><!-- povine, obsahuje ruzne otviraci doby -->
+          
+            
+          <period>
+            
+            <day which="mo">05:00-10:30 13:30-15:30</day>
+            <day which="tu">05:00-10:30 13:30-15:30</day>
+            <day which="we">05:00-10:30</day>
+            <day which="th">05:00-10:30 13:30-15:30</day>
+            <day which="fr">05:00-10:30 13:30-15:30</day>
+            <day which="sa">05:00-10:00</day>
+            <day which="su">CLOSED</day>
+            
+          </period>
+        </open>
+        <contacts>                <!-- povine -->
+          <address>               <!-- povine -->               
+            <street>Nechvalín</street>    <!-- povine -->      
+            <hause>116</hause>          <!-- povine -->
+            <post>696 31</post>        <!-- povine -->
+            
+            <city>Nechvalín</city>                       <!-- !povine! na strojove zpracovani -->
+          </address>
+          <tele>+420 607 175 404</tele>         <!-- povne -->
+          
+        </contacts>
+        <seznamMaplink>
+          <![CDATA[http://www.mapy.cz/#mm=ZTtTcP@ax=139255456@ay=132336432@at=Libu%C5%A1e%20Henzlov%C3%A1%20@ad=Specializovan%C3%BD%20maloobchod%20a%20maloobchod%20se%20sm%C3%AD%C5%A1en%C3%BDm%20zbo%C5%BE%C3%ADm@x=139254336@y=132336816@z=16]]></seznamMaplink>
+          <!-- poviny link na mapy cz. Toto je odkaz, ktery na ktery bude presmerovan po kliknuti na mapImage, udrzuj ty c data kuli nesmysloznakyum -->
+         <mapImage>henzlova.png</mapImage>
+         <!-- rucni obrazek napr mapaXP18.jpg ktery obsahuje scrrenshot z nejaky mapoy, nebo proste obrazek mapy kde sidly"--> 
+          <images> <!-- poviny element, ovsem kdyz obsahuje 0images pak nema vliv na stranku--> 
+            
+          </images> 
+          
+          <notes><!-- nepovine, poznamky k firme -->
+          <paragraph>Specializovaný maloobchod a maloobchod se smíšeným zbožím.</paragraph><!-- 0-n odstavcuu poznamek-->
+          
+          </notes>
+        </data>
+      </customer>
+<customer>
+      <id>7</id> <!--povine, u kazdeho noveho uzivatele  zvysit o jedna, slouzi na vnitrni navigaci, platne jsou pouze klana cisla (tzn smazat uzivatele muzes tal ze mu pridas  - pred cislo, nula ma jeste jiny vyznam;)-->
+      <key>ostatní služby</key>
+      <data>
+        <title>Cezar Ionut Babes - servis počítačů</title> <!--povine, nazev firmy, prave jednou -->
+        <open><!-- povine, obsahuje ruzne otviraci doby -->
+          
+          <period>
+            
+            <day which="mo">08:00-22:00</day>
+            <day which="tu">08:00-22:00</day>
+            <day which="we">08:00-22:00</day>
+            <day which="th">08:00-22:00</day>
+            <day which="fr">08:00-22:00</day>
+            <day which="sa">08:00-22:00</day>
+            <day which="su">08:00-22:00</day>
+            <hint>Domluva po telefonu či e-mailu nepřetržitě, v angličtině na čísle 773 251 201</hint> <!-- 0-n, kazdy hint ma zobrazeni DVA, kazdy hit jeden radek-->
+          </period>
+        </open>
+        <contacts>                <!-- povine -->
+          <address>               <!-- povine -->               
+            <street>Gabriely Preissové</street>    <!-- povine -->      
+            <hause>6</hause>          <!-- povine -->
+            <post>616 00</post>        <!-- povine -->
+            <cityPart>Žabovřesky</cityPart>      <!-- ackoliv je to cast vyhledavacviho dotazu, JE by yt NEpovinny -->
+            <city>Brno</city>                       <!-- !povine! na strojove zpracovani -->
+          </address>
+          <tele>+420 777 629 344</tele>         <!-- povne -->
+          <email>ionut.cezar@gmail.com</email>     <!-- nepovine -->
+          
+        </contacts>
+        <seznamMaplink>
+          <![CDATA[http://www.mapy.cz/#mm=ZTtTcP@ax=138069536@ay=132899744@at=Cezar%20Ionut@ad=%C3%9Adr%C5%BEba%20po%C4%8D%C3%ADta%C4%8D%C5%AF@x=138075712@y=132899040@z=16]]></seznamMaplink>
+          <!-- poviny link na mapy cz. Toto je odkaz, ktery na ktery bude presmerovan po kliknuti na mapImage, udrzuj ty c data kuli nesmysloznakyum -->
+         <mapImage>cezar.png</mapImage>
+         <!-- rucni obrazek napr mapaXP18.jpg ktery obsahuje scrrenshot z nejaky mapoy, nebo proste obrazek mapy kde sidly"--> 
+          <images> <!-- poviny element, ovsem kdyz obsahuje 0images pak nema vliv na stranku-->
+            
+          </images>
+          
+          <notes><!-- nepovine, poznamky k firme -->
+          <paragraph>Oprava a údržba počítačů.</paragraph><!-- 0-n odstavcuu poznamek-->
+          <paragraph>Diagnóza hardwaru a softwaru.</paragraph>
+          <paragraph>Reinstalace operačních systémů.</paragraph>
+          <paragraph>Sestavení počítače na míru.</paragraph>
+          </notes>
+        </data>
+      </customer>
+
+    </catalog>

@@ -1,0 +1,50 @@
+checking wst4_a.xml
+checking wst1_b.xml
+files count: 2
+f1: /home/jvanek/NetBeansProjects/XMLcompare/tests/mv/wst4_a.xml
+f2: /home/jvanek/NetBeansProjects/XMLcompare/tests/mv/wst1_b.xml
+compressed diff will be written into: /home/jvanek/NetBeansProjects/XMLcompare/tests/mv/difs/wst4_a.xml_x_wst1_b.xml.2.xdiff
+order is ignored - matching
+ignoreContent: false
+failFast: false
+silent: false
+ignoreUri: false
+forceTrim: true
+ignoreValueCase: false
+ignoreNameCase: false
+removeSpaces: false
+ignoreHeaders: false
+dual: true
+orphanSeek: true
+visualise: false
+levenstain is off
+validation is off
+opening parser for: /home/jvanek/NetBeansProjects/XMLcompare/tests/mv/wst4_a.xml
+opening parser for: /home/jvanek/NetBeansProjects/XMLcompare/tests/mv/wst1_b.xml
+Checking version: null against null
+OK     :  both xml versions are null
+Checking encoding: UTF-8 against UTF-8
+OK     :  encodings equals - UTF-8
+Checking processing instructions
+OK     :  number of processing instructions equals 0
+OK     :  all processing instructins match
+Entering root
+-------bruteforce summary--------
+    ERROR(1): {http://schemas.xmlsoap.org/soap/envelope/}Envelope: No suitable children path found; value1: eg: Header; value2: ; line1: 1; line2: null
+        ERROR(2): {http://schemas.xmlsoap.org/soap/envelope/}Header: Element name differs; value1: {http://schemas.xmlsoap.org/soap/envelope/}Header; value2: {http://schemas.xmlsoap.org/soap/envelope/}Body; line1: 2; line2: 4
+        ERROR(3): {http://schemas.xmlsoap.org/soap/envelope/}Body: No suitable children path found; value1: eg: sayHelloResponse; value2: ; line1: 2; line2: null
+            ERROR(4): {http://webservice_consumer_wise4/helloworld}sayHelloResponse: Element name differs; value1: {http://webservice_consumer_wise4/helloworld}sayHelloResponse; value2: {http://webservice_consumer_wise4/helloworld}sayHello; line1: 2; line2: 4
+++++ reverse order comparsion ++++
+Checking version: null against null
+OK     :  both xml versions are null
+Checking encoding: UTF-8 against UTF-8
+OK     :  encodings equals - UTF-8
+Checking processing instructions
+OK     :  number of processing instructions equals 0
+    OK     :  all processing instructins match
+Entering root
+-------bruteforce summary--------
+    ERROR(5): {http://schemas.xmlsoap.org/soap/envelope/}Envelope: No suitable children path found; value1: eg: Body; value2: ; line1: 3; line2: null
+        ERROR(6): {http://schemas.xmlsoap.org/soap/envelope/}Body: No suitable children path found; value1: eg: sayHello; value2: ; line1: 4; line2: null
+            ERROR(7): {http://webservice_consumer_wise4/helloworld}sayHello: Element name differs; value1: {http://webservice_consumer_wise4/helloworld}sayHello; value2: {http://webservice_consumer_wise4/helloworld}sayHelloResponse; line1: 4; line2: 2
+Total errors: 7

@@ -1,0 +1,53 @@
+checking wst3_b.xml
+checking wst3_a.xml
+files count: 2
+f1: /home/jvanek/NetBeansProjects/XMLcompare/tests/mv/wst3_b.xml
+f2: /home/jvanek/NetBeansProjects/XMLcompare/tests/mv/wst3_a.xml
+compressed diff will be written into: /home/jvanek/NetBeansProjects/XMLcompare/tests/mv/difs/wst3_a.xml_x_wst3_b.xml.2.xdiff
+order is ignored - matching
+ignoreContent: false
+failFast: false
+silent: false
+ignoreUri: false
+forceTrim: true
+ignoreValueCase: false
+ignoreNameCase: false
+removeSpaces: false
+ignoreHeaders: false
+dual: true
+orphanSeek: true
+visualise: false
+levenstain is off
+validation is off
+opening parser for: /home/jvanek/NetBeansProjects/XMLcompare/tests/mv/wst3_b.xml
+opening parser for: /home/jvanek/NetBeansProjects/XMLcompare/tests/mv/wst3_a.xml
+Checking version: null against null
+OK     :  both xml versions are null
+Checking encoding: UTF-8 against UTF-8
+OK     :  encodings equals - UTF-8
+Checking processing instructions
+OK     :  number of processing instructions equals 0
+OK     :  all processing instructins match
+Entering root
+-------bruteforce summary--------
+    OK: {http://schemas.xmlsoap.org/soap/envelope/}Envelope: OK
+        OK: {http://schemas.xmlsoap.org/soap/envelope/}Header: OK
+        OK: {http://schemas.xmlsoap.org/soap/envelope/}Body: OK
+            OK: {http://webservice_consumer_wise4/helloworld}sayHelloResponse: OK
+                OK: return: OK
+++++ reverse order comparsion ++++
+Checking version: null against null
+OK     :  both xml versions are null
+Checking encoding: UTF-8 against UTF-8
+OK     :  encodings equals - UTF-8
+Checking processing instructions
+OK     :  number of processing instructions equals 0
+    OK     :  all processing instructins match
+Entering root
+-------bruteforce summary--------
+    OK: {http://schemas.xmlsoap.org/soap/envelope/}Envelope: OK
+        OK: {http://schemas.xmlsoap.org/soap/envelope/}Header: OK
+        OK: {http://schemas.xmlsoap.org/soap/envelope/}Body: OK
+            OK: {http://webservice_consumer_wise4/helloworld}sayHelloResponse: OK
+                OK: return: OK
+XMLs are same
